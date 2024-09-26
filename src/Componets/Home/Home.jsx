@@ -38,7 +38,7 @@ useEffect(()=>{
             <p className=" text-4xl  text-center text-lime-500 font-bold mt-4" > Than This is The Favorite Food <span className=" text-5xl text-white" >Search </span> For You </p>
         </div>
 
-        <div className=" flex justify-center  mt-10"  >
+        <div className=" flex justify-center gap-3  mt-10"  >
         <input onBlur={handle} className="rounded-se-3xl rounded-bl-3xl w-96 h-16 border-s-2 border-e-2 border-t-2 border-blue-500 px-4 font-bold" type="text" placeholder="   🔎 Search..." /> 
         <button onClick={()=> loteData()}  className="rounded-se-3xl rounded-bl-3xl bg-white p-3 font-extrabold text-black h-16 border-s-2 border-e-2 border-t-2 border-blue-500" > Search  </button>
         </div>
